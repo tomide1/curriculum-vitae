@@ -84,6 +84,10 @@ export default function Home({ data }) {
                           </span>
                           <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">SCRUM
                           </span>
+                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Customer Service
+                          </span>
+                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Teaching
+                          </span>
                       </div>
                   </div>
               </div>
@@ -108,7 +112,9 @@ export default function Home({ data }) {
                           <p className="text-left">Aug. 2018 - Mar. 2020</p>
                           <ul className="mt-2 list-disc list-inside text-left">
                               <li>First line support, bug investigation, documentation and fixes</li>
-                              <li>Back end web development of microservices, front end development of various apps and websites</li>
+                              <li>Worked on transforming a front-end platform comprising several websites from using separate mobile and desktop pages to using single responsive pages</li>
+                              <li>Improved the performance of a monolith front-end application by purging deprecated/redundant libraries, and heavily refactoring the codebase</li>
+                              <li>Maintained and implemented new features in backend services</li>
                               <li>Engineered implementation of form attack mitigation using Recaptcha</li>
                           </ul>
                       </div>
@@ -117,7 +123,9 @@ export default function Home({ data }) {
                           <p className="italic text-left text-gray-600">Mentor Graphics; a Siemens Company</p>
                           <p className="text-left">Jul. 2016 - Jun. 2017</p>
                           <ul className="mt-2 list-disc list-inside text-left">
-                              <li>First line support, bug investigation, documentation and fixes</li>
+                              <li>Bug investigation, documentation, and fixes</li>
+                              <li>Developed additional features in an Angular JS app</li>
+                              <li>Developed UI components for a Wire-framing desktop app in Java</li>
                           </ul>
                       </div>
                       <div>
@@ -125,7 +133,9 @@ export default function Home({ data }) {
                           <p className="italic text-left text-gray-600">ATG Access Limited</p>
                           <p className="text-left">Aug. 2015 - Sept. 2015</p>
                           <ul className="mt-2 list-disc list-inside text-left">
-                              <li>First line support, bug investigation, documentation and fixes</li>
+                              <li>Worked with site engineers and electrical engineers to develop specification documents for security bollards</li>
+                              <li>Occasionally partook in bollard installation on-site</li>
+                              <li>Researched competitors' business and specification documents to inform my task of developing specification documents for ATG Access</li>
                           </ul>
                       </div>
                   </div>
