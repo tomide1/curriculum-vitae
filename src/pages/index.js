@@ -1,11 +1,12 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import Skill from "../components/Skill"
 
-import { Mail } from '@styled-icons/heroicons-outline';
-import { Briefcase } from '@styled-icons/heroicons-outline';
-import { Phone } from '@styled-icons/heroicons-outline';
-import { LocationMarker } from "@styled-icons/heroicons-outline";
+import { Mail } from '@styled-icons/heroicons-outline'
+import { Briefcase } from '@styled-icons/heroicons-outline'
+import { Phone } from '@styled-icons/heroicons-outline'
+import { LocationMarker } from "@styled-icons/heroicons-outline"
 
 export default function Home({ data }) {
   return (
@@ -50,44 +51,23 @@ export default function Home({ data }) {
                       </div>
                   </div>
                   <div>
-                      <h2 className="text-left tracking-wider border-t-2 border-b-2 py-2 mb-2">TECHNICAL SKILLS</h2>
+                      <h2 className="text-left tracking-wider border-t-2 border-b-2 py-2 mb-2">SKILLS</h2>
                       <div className="text-left">
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Object-oriented design
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Functional programming
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Full stack web development
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Javascript
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Project management
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Java
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Sass
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">SQL/NoSQL
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Python
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Docker
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Jenkins
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Git
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Haskell
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">React
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Mentoring
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">SCRUM
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Customer Service
-                          </span>
-                          <span className="inline-block rounded-lg px-4 bg-gray-500 hover:bg-gray-600 border border-gray-500 hover:border-gray-600 text-black-200 text-center text-sm mx-2 my-1">Teaching
-                          </span>
+                          <Skill skillName={"Object-oriented design"}/>
+                          <Skill skillName={"Functional programming"}/>
+                          <Skill skillName={"Full stack web development"}/>
+                          <Skill skillName={"Teaching"}/>
+                          <Skill skillName={"Java"}/>
+                          <Skill skillName={"Javascript"}/>
+                          <Skill skillName={"Sass"}/>
+                          <Skill skillName={"Python"}/>
+                          <Skill skillName={"Docker"}/>
+                          <Skill skillName={"React"}/>
+                          <Skill skillName={"Project management"}/>
+                          <Skill skillName={"Mentoring"}/>
+                          <Skill skillName={"Haskell"}/>
+                          <Skill skillName={"SCRUM"}/>
+                          <Skill skillName={"Customer Service"}/>
                       </div>
                   </div>
               </div>
