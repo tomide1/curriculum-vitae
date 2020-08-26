@@ -1,7 +1,9 @@
 module.exports = {
   purge: {
-    enabled: false,
-    content: ['./src/**/*.js']
+    content: ['./src/**/*.js*'],
+    options: {
+      whitelist: ['html'],
+    }
   },
   theme: {
     extend: {},
