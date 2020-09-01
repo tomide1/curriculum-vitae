@@ -5,6 +5,6 @@ const puppeteer = require('puppeteer');
     const page = await browser.newPage();
     await page.goto('http://localhost:8000', {waitUntil: 'networkidle2'});
     await page.emulateMediaType('screen');
-    await page.pdf({path: 'static/cv-tomide.pdf', width: '1720px', height: '1500px'});
+    await page.pdf({path: 'src/assets/pdf/cv-tomide.pdf', width: '1720px', height: '1500px'});
     await browser.close();
 })();
