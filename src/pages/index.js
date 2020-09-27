@@ -73,7 +73,6 @@ export default function Home({ data }) {
                               <li>Worked alongside project & product managers to oversee projects; planning deliverables and milestones, organising and managing the projects’ developers</li>
                           </ul>
                       </div>
-
                       <div className="mb-4">
                           <p className="italic text-left text-gray-600">Graduate Software Engineer (Aug. 2018 - Mar. 2020)</p>
                           <ul className="mt-2 list-disc list-inside text-left">
@@ -105,6 +104,7 @@ export default function Home({ data }) {
                       <h2 className="text-left tracking-wider border-t-2 border-b-2 py-2 mb-2">PROJECTS</h2>
                       <div>
                           <h3 className="text-left tracking-wide">MY CV</h3>
+                          <a href="https://telias.tech/" className="italic text-left text-gray-600">telias.tech</a>
                           <p className="text-left pyb-2">Built out my cv using React Gatsby for performance and scalability, graphQL, tailwind CSS, purgeCSS for cutting out unused css code (introduced by tailwind CSS) from the production build, and puppeteer for generating PDFs</p>
                       </div>
                   </div>
@@ -115,7 +115,6 @@ export default function Home({ data }) {
                           <p className="text-left pb-2">
                               Object-oriented programming, full stack web development, Java, Javascript, Sass, HTML, SQL, Python, Docker, React, Haskell, SCRUM</p>
                           <h3 className="tracking-wide text-left">Professional skills</h3>
-
                           <p className="">Teaching, project management, mentoring, customer Service</p>
                       </div>
                   </div>
